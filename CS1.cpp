@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include <SDL.h>
+#include "graphics.h"
 
-int main()
+
+
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello World!\n";
+    Graphics graphics;
+    while (true) {
+
+    }
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
